@@ -1,1 +1,1 @@
-The new content of the file: [TEST-060618154514] Test Commit
+The new content of the file: Ryan's Test Commit that references two Jira tickets in the commit message.
