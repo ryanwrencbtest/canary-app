@@ -1,7 +1,7 @@
 node {
-    //stage('checkout') {
-    //    git 'https://github.com/ryanwren/devoptics-checkout.git'
-    //}
+    stage('checkout') {
+        git 'https://github.com/ryanwrencbtest/canary-app.git'
+    }
     stage ('build') {
         withMaven(maven: 'Maven350') {
             sh "mvn clean install"
