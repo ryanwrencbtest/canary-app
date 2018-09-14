@@ -1,7 +1,6 @@
 node {
-    //Testing this on a 2.89.1.7 AWS cluster!
     stage('checkout') {
-        git 'https://github.com/ryanwren/devoptics-checkout.git'
+        git 'https://github.com/ryanwrencbtest/canary-app.git'
     }
     stage ('build') {
         withMaven(maven: 'Maven350') {
