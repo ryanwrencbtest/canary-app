@@ -1,5 +1,5 @@
 node {
-    stage('checkout app a') {
+    stage('checkout') {
         git 'https://github.com/ryanwrencbtest/canary-app.git'
     }
     stage ('build app a') {
