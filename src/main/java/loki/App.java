@@ -8,7 +8,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-		System.out.println( "Testing QE-558" );
+		System.out.println( "Testing DEVOPTICS-252" );
     }
 }
 
